@@ -7,6 +7,8 @@ import java.util.List;
 
 import javafx.animation.FadeTransition;
 import javafx.application.Application;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
 import javafx.scene.Parent;
@@ -33,9 +35,11 @@ public class Main extends Application{
 	private static final int NUM_PER_ROW = 4;
 	private Tile selected = null;
 	private int clickCount = 2; //Number of mouse clicks allowed
+	private int counter = 0;
+
 	
 
-	private Parent createContent() {
+	public Parent createContent() {
 		
 		final GridPane gridPane = new GridPane();
 		gridPane.setPadding(new Insets (7,7,7,7));
@@ -58,11 +62,10 @@ public class Main extends Application{
 		Collections.shuffle(tiles);
 		for (int i = 0; i < tiles.size(); i++) {		
 			Tile tile = tiles.get(i);
-			tile.setTranslateX(60 * (i % NUM_PER_ROW));
-			tile.setTranslateY(60 * (i / NUM_PER_ROW));							
+			tile.setTranslateX(80 * (i % NUM_PER_ROW));
+			tile.setTranslateY(80 * (i / NUM_PER_ROW));	
 			gridPane.getChildren().add(tile);			
 		}
-		gridPane.setStyle("    -fx-background-color: blue");
 		gridPane.getChildren().addAll(createResumeButton(),createExitButton());
 		return gridPane;
 
@@ -76,6 +79,7 @@ public class Main extends Application{
 		borderPane.setLeft(createLeftPane());
 		primaryStage.setScene(new Scene(borderPane,800,500));	
 		primaryStage.show();
+			
 	}	
 
 	private class Tile extends StackPane {
@@ -88,8 +92,8 @@ public class Main extends Application{
 		public Tile(int value) {
 			
 
-			/* HELP! (show the pairs with colors)
-			if (value == 0) {circle.setFill(Color.BLUE);}
+			// HELP! (show the pairs with colors)
+			/*if (value == 0) {circle.setFill(Color.BLUE);}
 			if (value == 1) {circle.setFill(Color.AQUA);}
 			if (value == 2) {circle.setFill(Color.RED);}
 			if (value == 3) {circle.setFill(Color.GOLD);}
@@ -100,10 +104,11 @@ public class Main extends Application{
 
 
 			circle.setStroke(Color.BLACK);
-			circle.setFill(Color.BISQUE);
+			circle.setFill(Color.DARKSLATEBLUE);
 
 			text.setText(value+"");
 			text.setFont(Font.font(30));
+			text.setStyle("-fx-fill: white;");
 
 			setAlignment(Pos.CENTER);
 			getChildren().addAll(circle, text);
@@ -116,7 +121,7 @@ public class Main extends Application{
 
 		//Create MouseClick eventHandler
 		public void handleMouseClick(MouseEvent event) {
-			System.out.println("MouseClick");
+			System.out.println("MouseClick - " + counter);
 			if (isOpen() || clickCount == 0)
 				return;
 
@@ -131,10 +136,13 @@ public class Main extends Application{
 					if (!hasSameValue(selected)) {
 						selected.close();
 						this.close();
+						
 					}
-
+					else {counter++;}
 					selected = null;
 					clickCount = 2;
+					endGame();
+					
 				});
 			}
 		}
@@ -165,13 +173,22 @@ public class Main extends Application{
 		}
 
 		//Check if the game is ended
+		public Stage endGame() {
+			if (counter == 8) {
+				System.out.println("End Game");
+				return new Stage();}
+			else {return null;}
+			
+		}
+			
+		
 	}
 
 	private Button createResumeButton() {
 		
 		Button resume = new Button("RESUME");
 		resume.setTranslateX(15);
-		resume.setTranslateY(225);
+		resume.setTranslateY(325);
 		resume.setStyle("    -fx-background-color: \r\n" + 
 				"        #090a0c,\r\n" + 
 				"        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),\r\n" + 
@@ -187,7 +204,14 @@ public class Main extends Application{
 				"    -fx-padding: 10 20 10 20;");
 
 		resume.setTextFill(Color.AQUA);
-		resume.setOnAction(event -> System.exit(0));
+		
+		resume.setOnAction(new EventHandler<ActionEvent>(){
+			public void handle(ActionEvent event) {
+				counter = 0;
+				// Go back to the start scene
+				}
+		}
+				);
 		return resume;
 
 	}
@@ -196,8 +220,8 @@ public class Main extends Application{
 		
 		Button exit = new Button("   EXIT   ");
 		
-		exit.setTranslateX(150);
-		exit.setTranslateY(225);
+		exit.setTranslateX(230);
+		exit.setTranslateY(325);
 		exit.setStyle("    -fx-background-color: \r\n" + 
 				"        #090a0c,\r\n" + 
 				"        linear-gradient(#38424b 0%, #1f2429 20%, #191d22 100%),\r\n" + 
@@ -219,8 +243,8 @@ public class Main extends Application{
 
 	private VBox createLeftPane() {
 		VBox leftBox = new VBox(10);
-		Label l1 = new Label("										");
-		leftBox.setStyle("-fx-border-width: 2;-fx-border-color: green; -fx-background-color: green");	
+		Label l1 = new Label("								");
+		//leftBox.setStyle("-fx-border-width: 2;-fx-border-color: green; -fx-background-color: green");	
 		leftBox.getChildren().add(l1);
 		return leftBox;
 		
@@ -228,11 +252,11 @@ public class Main extends Application{
 		
 	private Pane createTopPane() {
 		final VBox topBox = new VBox(25);
-		for (int i =0; i<3; i++) {
+		for (int i =0; i<2; i++) {
 			Label l1 = new Label("");
 			topBox.getChildren().add(l1);
 		}
-		topBox.setStyle("-fx-border-width: 2;-fx-border-color: red; -fx-background-color: red");			
+		//topBox.setStyle("-fx-border-width: 2;-fx-border-color: red; -fx-background-color: red");			
 		return topBox;
 	}
 	
