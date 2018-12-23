@@ -79,27 +79,51 @@ Nach dem Aufteilen der User Stories in Tasks haben wir einen Gesamtaufwand von 7
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545593779-capture-musique-1.png)
   
-  ![](http://image.noelshack.com/fichiers/2018/51/7/1545593779-capture-musique-2.png)
+  * String uriString = new File(‘’theme.mp3’’).toUri().toString(); *  
+  Eine URI, aus dem englischen „Uniform Ressource Identifier“, ist genau übersetzt „Benutzer von einheitlichen Ressourcen“ und ist eine kurze Zeichenkette, die eine körperliche oder abstrakte Ressource auf einem Netzwerk identifiziert (z.B. eine Web Info).   
   
-  ![](http://image.noelshack.com/fichiers/2018/51/7/1545594184-capture-musique-3.png)
+  ![](http://image.noelshack.com/fichiers/2018/51/7/1545593779-capture-musique-2.png)  
   
-  #### 
+  Hier bilden wir ein String vom Namen „URIString“, um unsere Tonspur dort hinsetzen zu können. Die Tonspur befindet sich in dem Ressource Programm (src). Wir werden den URI, und dann den String, suchen.  
+  
+  * MediaPlayer player = new MediaPlayer( new Media(uriString)); *
+  
+  ![](http://image.noelshack.com/fichiers/2018/51/7/1545594184-capture-musique-3.png)  
+  
+  Mediaplayer ist eine Klasse, aber wir müssen diese erst importieren, um Media und Mediaplayer benutzen zu können. Wir bauen ein neues Objekt in der Klasse auf. Mediaplayer, den wir hier Player nennen, geben wir den Wert Media (URIString), die unsere Tonspur ist. Der Media Player ist dann fertig.  
+  
+  * player.play() ; *
+  
+  Wir starten den MediaPlayer.
+  
+  #### Font
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545594335-capture-police-texte-2.png)
   
-  ![](http://image.noelshack.com/fichiers/2018/51/7/1545594184-capture-police-texte.png)
+  ![](http://image.noelshack.com/fichiers/2018/51/7/1545594184-capture-police-texte.png)  
   
-  #### 
+  Um die Große und den Schriftstil des “Label“ Textes (hier nameGame und Instruktion) oder ein „Button“ (hier: button 1) zu andern , importiert man die Klasse javafx.scene.txt.Font.
+Um den Schreibstil zu andern brauch man : NomDuBoutonOuLabel.setFont(Font.font(„den gewünschten Schriftstile“, Große des Schreibstils)).
+
+  
+  #### Textfarbe
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545593779-capture-couleur-texte-1.png)
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545594184-capture-couleur-texte-2.png)
   
-  #### 
+  Um die Farbe eines Label Textes oder eines Knopfes zu ändern, importiert man die Klasse javafx.scene.paint.Color. 
+Um die Farbe zu ändern, braucht man: NomDuBoutonOuLabel.setTxtfill(Color.einerderangebotenenfarben).
+
+  
+  #### Cursor
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545593779-capture-curseur-2.png)
   
-  ![](http://image.noelshack.com/fichiers/2018/51/7/1545593779-capture-curseur.png)
+  ![](http://image.noelshack.com/fichiers/2018/51/7/1545593779-capture-curseur.png)  
+  
+  
+ Um die Form des Mauszeigers zu ändern, importiert man die Klasse javafx.scene.Cursor und man benutzt: nomDeLaScene.setCursor(Cursor.einederangebotenenmaus).
   
  ###  e. Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories
   
