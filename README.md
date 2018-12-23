@@ -12,7 +12,7 @@ ZIELE:
 
 Unser Ziel war ein Memory Spiel zu programmieren, danke unsere er lehrten Fähigkeiten, und dazu ein Projekt herstellen.
 
-Randbedingungen:
+RANDBEDIGUNGEN:
 
 Die Programmierung soll in JAVA mit Eclipse unter der Nutzung von Github und Maven erfolgen. Das Programm soll auf einem Windows, einem MAC und einem Linux funktionieren.
 
@@ -20,7 +20,12 @@ Build-Anleitung (checkout, mvn...java-jar xxxxx.jar
 ==  
 
 Kurze Bedienungsanleitung
-==  
+== 
+1) Zur starten des Spieles drucken Sie bitte auf « Run » in ihren Eclipse Applikation. Ein Java Fenster wird sich öffnen.
+2) Lesen Sie die Regeln und drucken sie auf « Start ». Die Szene hat sich geändert. 
+3) Mit den Regeln, die Sie davor gelesen haben, wissen Sie wie sie spielen sollen. 
+4) Wenn Sie gewonnen haben kommen sie auf eine andere Szene.
+5) Sie können entweder « Resume » um nochmal zu spielen oder « Exit » um den spiel zur verlassen.
 
 User Stories
 ==  
