@@ -1,7 +1,7 @@
 Memory_Game
 ====
    
-  ##Einleitung, Ziele, Randbedingungen##
+   ##Einleitung, Ziele, Randbedingungen
 
 __EINLEITUNG:__
 
