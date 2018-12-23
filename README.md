@@ -75,7 +75,7 @@ Nach dem Aufteilen der User Stories in Tasks haben wir einen Gesamtaufwand von 7
   
   ### d. Dokumentation wichtiger Code Snippets 
   
-             MEDIAPLAYER
+####                 MEDIAPLAYER
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545593779-capture-musique-1.png)
   
@@ -97,7 +97,7 @@ Nach dem Aufteilen der User Stories in Tasks haben wir einen Gesamtaufwand von 7
   
   Wir starten den MediaPlayer.
   
-             FONT
+  ####                  FONT
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545594335-capture-police-texte-2.png)
   
@@ -107,7 +107,7 @@ Nach dem Aufteilen der User Stories in Tasks haben wir einen Gesamtaufwand von 7
 Um den Schreibstil zu andern brauch man : NomDuBoutonOuLabel.setFont(Font.font(„den gewünschten Schriftstile“, Große des Schreibstils)).
 
   
-             TEXTFARBE
+  ####                  TEXTFARBE
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545593779-capture-couleur-texte-1.png)
   
@@ -117,7 +117,7 @@ Um den Schreibstil zu andern brauch man : NomDuBoutonOuLabel.setFont(Font.font(�
 Um die Farbe zu ändern, braucht man: NomDuBoutonOuLabel.setTxtfill(Color.einerderangebotenenfarben).
 
   
-             CURSOR
+  ####                  CURSOR
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545593779-capture-curseur-2.png)
   
