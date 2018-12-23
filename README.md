@@ -30,6 +30,8 @@ Kurze Bedienungsanleitung
 User Stories
 ==  
 
+__User Story Plan__
+
 Releaseplan Sprint 1
 ==  
 
