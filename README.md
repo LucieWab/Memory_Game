@@ -33,6 +33,10 @@ User Stories
 Releaseplan Sprint 1
 ==  
 
+Velocity
+==
+Nach dem Aufteilen der User Stories in Tasks haben wir einen Gesamtaufwand von 75 Stunden. Da wir maximal 80 Stunden zur Verfügung haben (vierer Gruppe 80 Stunden) schaffen wir es mit 25 Stunden pro Studenten. Gesamt Story Point: 51.
+
 Dokumentation Sprint 1
 ==  
   
