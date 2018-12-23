@@ -34,7 +34,7 @@ import javafx.util.Duration;
 
 public class Game extends Application{
 	
-	//Create the variables that we need for the programm
+	//Create the variables that we need for the program
 	private static final int NUM_OF_PAIRS = 8;
 	private static final int NUM_PER_ROW = 4;
 	private Tile selected = null;
