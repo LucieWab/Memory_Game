@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Built-By: Anna
+Build-Jdk: 1.8.0_181
+Main-Class: de.dhbw.maven.App
+Created-By: Maven Integration for Eclipse
+
