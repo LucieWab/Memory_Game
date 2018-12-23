@@ -95,11 +95,11 @@ Nach dem Aufteilen der User Stories in Tasks haben wir einen Gesamtaufwand von 7
   
   *player.play() ;*
   
-  Wir starten den MediaPlayer.
-  
-  
-  
-  
+  Wir starten den MediaPlayer.  
+    
+    
+    
+    
   #### FONT
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545594335-capture-police-texte-2.png)
@@ -107,12 +107,12 @@ Nach dem Aufteilen der User Stories in Tasks haben wir einen Gesamtaufwand von 7
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545594184-capture-police-texte.png)  
   
   Um die Große und den Schriftstil des “Label“ Textes (hier nameGame und Instruktion) oder ein „Button“ (hier: button 1) zu andern , importiert man die Klasse javafx.scene.txt.Font.
-Um den Schreibstil zu andern brauch man : NomDuBoutonOuLabel.setFont(Font.font(„den gewünschten Schriftstile“, Große des Schreibstils)).
-
-
-
-
+Um den Schreibstil zu andern brauch man : NomDuBoutonOuLabel.setFont(Font.font(„den gewünschten Schriftstile“, Große des Schreibstils)).  
   
+  
+  
+  
+    
   #### TEXTFARBE
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545593779-capture-couleur-texte-1.png)
@@ -120,12 +120,12 @@ Um den Schreibstil zu andern brauch man : NomDuBoutonOuLabel.setFont(Font.font(�
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545594184-capture-couleur-texte-2.png)
   
   Um die Farbe eines Label Textes oder eines Knopfes zu ändern, importiert man die Klasse javafx.scene.paint.Color. 
-Um die Farbe zu ändern, braucht man: NomDuBoutonOuLabel.setTxtfill(Color.einerderangebotenenfarben).
-
-
-
-
+Um die Farbe zu ändern, braucht man: NomDuBoutonOuLabel.setTxtfill(Color.einerderangebotenenfarben).  
   
+  
+  
+  
+    
   #### CURSOR
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545593779-capture-curseur-2.png)
@@ -133,11 +133,11 @@ Um die Farbe zu ändern, braucht man: NomDuBoutonOuLabel.setTxtfill(Color.einerd
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545593779-capture-curseur.png)  
   
   
- Um die Form des Mauszeigers zu ändern, importiert man die Klasse javafx.scene.Cursor und man benutzt: nomDeLaScene.setCursor(Cursor.einederangebotenenmaus).
- 
- 
- 
-  
+ Um die Form des Mauszeigers zu ändern, importiert man die Klasse javafx.scene.Cursor und man benutzt: nomDeLaScene.setCursor(Cursor.einederangebotenenmaus).  
+   
+   
+   
+    
  ###  e. Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545589180-6e.png)
