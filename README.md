@@ -69,7 +69,6 @@ Nach dem Aufteilen der User Stories in Tasks haben wir einen Gesamtaufwand von 7
   
   
   ### c. UML Package, Klassen- und Sequenzdiagramm
-  -  
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545589180-6c.png)
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545589180-6c2.png)
@@ -79,7 +78,6 @@ Nach dem Aufteilen der User Stories in Tasks haben wir einen Gesamtaufwand von 7
   
   
  ###  e. Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories
-  -  
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545589180-6e.png)
 
