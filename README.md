@@ -42,6 +42,18 @@ Dokumentation Sprint 1
   
   a. Taskliste
   -  
+  User Story 1-3 : 
+  
+  [id]: http://image.noelshack.com/fichiers/2018/51/7/1545589180-6a.png "Title"
+  
+  
+  User Story 5-8 + 14:  
+  
+  
+  User Story 9-13:  
+  
+  
+  
   
   b. Anreicherung der User Stories für die Umsetzung
   -
