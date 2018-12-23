@@ -30,10 +30,20 @@ Kurze Bedienungsanleitung
 User Stories
 ==  
 
-__User Story Plan__
+![](http://image.noelshack.com/fichiers/2018/51/7/1545591524-user-story.png)
+
+__User Story Plan
+
+![](http://image.noelshack.com/fichiers/2018/51/7/1545591524-user-story-plan-1.png)
+
+![](http://image.noelshack.com/fichiers/2018/51/7/1545591524-user-story-plan-2.png)
+
+![](http://image.noelshack.com/fichiers/2018/51/7/1545591524-user-story-plan-3.png)
 
 Releaseplan Sprint 1
 ==  
+
+![](http://image.noelshack.com/fichiers/2018/51/7/1545591524-release-plan.png)
 
 Velocity
 ==
@@ -78,8 +88,5 @@ Dokumentation Sprint 1
   -  
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545589180-6e.png)
-
-Dokumentation Sprint 2
-==  
 
 
