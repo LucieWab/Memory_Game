@@ -42,30 +42,40 @@ Dokumentation Sprint 1
   
   a. Taskliste
   -  
-  User Story 1-3 : 
+
+![](http://image.noelshack.com/fichiers/2018/51/7/1545589180-6a.png)
   
-  ![](http://image.noelshack.com/fichiers/2018/51/7/1545589180-6a.png)
+  b. Anreicherung der User Stories für die Umsetzung
+  -  
+  
+    User Story 1-3 : 
+  
+  ![](http://image.noelshack.com/fichiers/2018/51/7/1545589180-user-story-1-3.png)
   
   
   User Story 5-8 + 14:  
   
+  ![](http://image.noelshack.com/fichiers/2018/51/7/1545589180-user-story-5-8-14.png)
   
   User Story 9-13:  
   
+  ![](http://image.noelshack.com/fichiers/2018/51/7/1545589217-user-story-9-13.png)
   
-  
-  
-  b. Anreicherung der User Stories für die Umsetzung
-  -
   
   c. UML Package, Klassen- und Sequenzdiagramm
   -  
   
+  ![](http://image.noelshack.com/fichiers/2018/51/7/1545589180-6c.png)
+  ![](http://image.noelshack.com/fichiers/2018/51/7/1545589180-6c2.png)
+  
   d. Dokumentation wichtiger Code Snippets
   -  
   
+  
   e. Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories
   -  
+  
+  ![](http://image.noelshack.com/fichiers/2018/51/7/1545589180-6e.png)
 
 Dokumentation Sprint 2
 ==  
