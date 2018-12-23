@@ -75,7 +75,7 @@ Nach dem Aufteilen der User Stories in Tasks haben wir einen Gesamtaufwand von 7
   
   ### d. Dokumentation wichtiger Code Snippets 
   
-  ## startScene()
+  ## * startScene()
   
   ### MediaPlayer
   
