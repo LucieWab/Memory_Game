@@ -44,7 +44,7 @@ Dokumentation Sprint 1
   -  
   User Story 1-3 : 
   
-  [id]: http://image.noelshack.com/fichiers/2018/51/7/1545589180-6a.png "Title"
+  ![](http://image.noelshack.com/fichiers/2018/51/7/1545589180-6a.png)
   
   
   User Story 5-8 + 14:  
