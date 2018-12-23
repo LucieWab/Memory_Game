@@ -48,16 +48,16 @@ Dokumentation Sprint 1
   b. Anreicherung der User Stories für die Umsetzung
   -  
   
-    User Story 1-3 : 
+  
+    User Story 1-3 :
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545589180-user-story-1-3.png)
   
-  
-  User Story 5-8 + 14:  
+    User Story 5-8 + 14:  
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545589180-user-story-5-8-14.png)
   
-  User Story 9-13:  
+    User Story 9-13:  
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545589217-user-story-9-13.png)
   
