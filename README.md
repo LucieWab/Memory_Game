@@ -75,28 +75,29 @@ Nach dem Aufteilen der User Stories in Tasks haben wir einen Gesamtaufwand von 7
   
   ### d. Dokumentation wichtiger Code Snippets 
   
-  #### MediaPlayer
+  #### * MediaPlayer
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545593779-capture-musique-1.png)
   
-  * String uriString = new File(‘’theme.mp3’’).toUri().toString(); *  
+  *String uriString = new File(‘’theme.mp3’’).toUri().toString();*
+  
   Eine URI, aus dem englischen „Uniform Ressource Identifier“, ist genau übersetzt „Benutzer von einheitlichen Ressourcen“ und ist eine kurze Zeichenkette, die eine körperliche oder abstrakte Ressource auf einem Netzwerk identifiziert (z.B. eine Web Info).   
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545593779-capture-musique-2.png)  
   
   Hier bilden wir ein String vom Namen „URIString“, um unsere Tonspur dort hinsetzen zu können. Die Tonspur befindet sich in dem Ressource Programm (src). Wir werden den URI, und dann den String, suchen.  
   
-  * MediaPlayer player = new MediaPlayer( new Media(uriString)); *
+  *MediaPlayer player = new MediaPlayer( new Media(uriString));*
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545594184-capture-musique-3.png)  
   
   Mediaplayer ist eine Klasse, aber wir müssen diese erst importieren, um Media und Mediaplayer benutzen zu können. Wir bauen ein neues Objekt in der Klasse auf. Mediaplayer, den wir hier Player nennen, geben wir den Wert Media (URIString), die unsere Tonspur ist. Der Media Player ist dann fertig.  
   
-  * player.play() ; *
+  *player.play() ;*
   
   Wir starten den MediaPlayer.
   
-  #### Font
+  #### * Font
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545594335-capture-police-texte-2.png)
   
@@ -106,7 +107,7 @@ Nach dem Aufteilen der User Stories in Tasks haben wir einen Gesamtaufwand von 7
 Um den Schreibstil zu andern brauch man : NomDuBoutonOuLabel.setFont(Font.font(„den gewünschten Schriftstile“, Große des Schreibstils)).
 
   
-  #### Textfarbe
+  #### * Textfarbe
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545593779-capture-couleur-texte-1.png)
   
@@ -116,7 +117,7 @@ Um den Schreibstil zu andern brauch man : NomDuBoutonOuLabel.setFont(Font.font(�
 Um die Farbe zu ändern, braucht man: NomDuBoutonOuLabel.setTxtfill(Color.einerderangebotenenfarben).
 
   
-  #### Cursor
+  #### * Cursor
   
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545593779-capture-curseur-2.png)
   
