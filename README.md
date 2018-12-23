@@ -3,16 +3,16 @@ Memory_Game
    
   Einleitung, Ziele, Randbedingungen
 ==  
-_EINLEITUNG:_
+__EINLEITUNG:__
 
 Dieses Git- Repository entstand im Rahmen der Kurse Software Engineering und Programmieren mit Java. Wir, Anna Bourennane Lucie Wabartha und Florian Mercier, haben uns entschieden ein Memory spielen zu programmieren und darum unseren Software Engineering Project zu machen.
 
 
-_ZIELE:_
+__ZIELE:__
 
 Unser Ziel war ein Memory Spiel zu programmieren, danke unsere er lehrten Fähigkeiten, und dazu ein Projekt herstellen.
 
-_RANDBEDIGUNGEN:_
+__RANDBEDIGUNGEN:__
 
 Die Programmierung soll in JAVA mit Eclipse unter der Nutzung von Github und Maven erfolgen. Das Programm soll auf einem Windows, einem MAC und einem Linux funktionieren.
 
