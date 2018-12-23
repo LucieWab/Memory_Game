@@ -28,7 +28,7 @@ Die Programmierung soll in JAVA mit Eclipse unter der Nutzung von Github und Mav
 
 ![](http://image.noelshack.com/fichiers/2018/51/7/1545591524-user-story.png)
 
-### User Story Plan
+## User Story Plan
 
 ![](http://image.noelshack.com/fichiers/2018/51/7/1545591524-user-story-plan-1.png)
 
@@ -73,8 +73,7 @@ Nach dem Aufteilen der User Stories in Tasks haben wir einen Gesamtaufwand von 7
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545589180-6c.png)
   ![](http://image.noelshack.com/fichiers/2018/51/7/1545589180-6c2.png)
   
-  ### d. Dokumentation wichtiger Code Snippets
-  -  
+  ### d. Dokumentation wichtiger Code Snippets 
   
   
  ###  e. Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories
