@@ -75,6 +75,27 @@ Nach dem Aufteilen der User Stories in Tasks haben wir einen Gesamtaufwand von 7
   
   ### d. Dokumentation wichtiger Code Snippets 
   
+  ## startScene()
+  
+  ### MediaPlayer
+  
+  ![](http://image.noelshack.com/fichiers/2018/51/7/1545593779-capture-musique-1.png)
+  
+  ![](http://image.noelshack.com/fichiers/2018/51/7/1545593779-capture-musique-2.png)
+  
+  ![](http://image.noelshack.com/fichiers/2018/51/7/1545594184-capture-musique-3.png)
+  
+  ![](http://image.noelshack.com/fichiers/2018/51/7/1545594335-capture-police-texte-2.png)
+  
+  ![](http://image.noelshack.com/fichiers/2018/51/7/1545594184-capture-police-texte.png)
+  
+  ![](http://image.noelshack.com/fichiers/2018/51/7/1545593779-capture-couleur-texte-1.png)
+  
+  ![](http://image.noelshack.com/fichiers/2018/51/7/1545594184-capture-couleur-texte-2.png)
+  
+  ![](http://image.noelshack.com/fichiers/2018/51/7/1545593779-capture-curseur-2.png)
+  
+  ![](http://image.noelshack.com/fichiers/2018/51/7/1545593779-capture-curseur.png)
   
  ###  e. Herleitung der Testfälle aus den Akzeptanzkriterien der User Stories
   
